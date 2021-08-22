@@ -12,8 +12,8 @@ import 'package:flutter_design_pattern/behavioral/visitor.dart';
 import 'package:flutter_design_pattern/creational/abstract_factory.dart';
 import 'package:flutter_design_pattern/creational/factory_method.dart';
 import 'package:flutter_design_pattern/creational/prototype.dart';
-import 'package:flutter_design_pattern/creational/Builder.dart';
-import 'package:flutter_design_pattern/creational/Singleton.dart';
+import 'package:flutter_design_pattern/creational/builder.dart';
+import 'package:flutter_design_pattern/creational/singleton.dart';
 import 'package:flutter_design_pattern/structural/adapter.dart';
 import 'package:flutter_design_pattern/structural/bridge.dart';
 import 'package:flutter_design_pattern/structural/composite.dart';
@@ -22,8 +22,43 @@ import 'package:flutter_design_pattern/structural/facade.dart';
 import 'package:flutter_design_pattern/structural/flyweight.dart';
 import 'package:flutter_design_pattern/structural/proxy.dart';
 
-
 void main() {
+  /// Behavioral //////////////////////////////////////////////////
+  //chain of responsibility pattern
+  chainOfResponsibility();
+
+  //command pattern
+  commandPattern();
+
+  //interpreter pattern
+  interpreterPattern();
+
+  //iterator pattern
+  iteratorPattern();
+
+  //mediator pattern
+  mediatorPattern();
+
+  //memento pattern
+  mementoPattern();
+
+  //observer pattern
+  observerPattern();
+
+  //state pattern
+  statePattern();
+
+  //strategy pattern
+  strategyPattern();
+
+  //template pattern
+  templatePattern();
+
+  //visitor pattern
+  visitorPattern();
+
+  /// Behavioral //////////////////////////////////////////////////
+
   /// Creational //////////////////////////////////////////////////
   //singleton pattern
   singletonPattern();
@@ -65,40 +100,4 @@ void main() {
   proxyPattern();
 
   /// Structural //////////////////////////////////////////////////
-
-  /// Behavioral //////////////////////////////////////////////////
-  //chain of responsibility pattern
-  chainOfResponsibility();
-
-  //command pattern
-  commandPattern();
-
-  //interpreter pattern
-  interpreterPattern();
-
-  //iterator pattern
-  iteratorPattern();
-
-  //mediator pattern
-  mediatorPattern();
-
-  //memento pattern
-  mementoPattern();
-
-  //observer pattern
-  observerPattern();
-
-  //state pattern
-  statePattern();
-
-  //strategy pattern
-  strategyPattern();
-
-  //template pattern
-  templatePattern();
-
-  //visitor pattern
-  visitorPattern();
-
-  /// Behavioral //////////////////////////////////////////////////
 }
