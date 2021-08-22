@@ -12,6 +12,8 @@ import 'package:flutter_design_pattern/behavioral/visitor.dart';
 import 'package:flutter_design_pattern/creational/abstract_factory.dart';
 import 'package:flutter_design_pattern/creational/factory_method.dart';
 import 'package:flutter_design_pattern/creational/prototype.dart';
+import 'package:flutter_design_pattern/creational/Builder.dart';
+import 'package:flutter_design_pattern/creational/Singleton.dart';
 import 'package:flutter_design_pattern/structural/adapter.dart';
 import 'package:flutter_design_pattern/structural/bridge.dart';
 import 'package:flutter_design_pattern/structural/composite.dart';
@@ -20,8 +22,6 @@ import 'package:flutter_design_pattern/structural/facade.dart';
 import 'package:flutter_design_pattern/structural/flyweight.dart';
 import 'package:flutter_design_pattern/structural/proxy.dart';
 
-import 'creational/Builder.dart';
-import 'creational/Singleton.dart';
 
 void main() {
   /// Creational //////////////////////////////////////////////////

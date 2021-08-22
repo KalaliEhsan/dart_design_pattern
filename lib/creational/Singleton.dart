@@ -17,14 +17,14 @@ class Me {
 
 void singletonPattern(){
   var Ehsan = Me();
-  var anotherTyler = Me();
+  var anotherPeople = Me();
 
-  print('Creational: singleton =====> $Ehsan');
-  print('Creational: singleton =====> $anotherTyler');
+  print('creational: singleton =====> $Ehsan');
+  print('creational: singleton =====> $anotherPeople');
 
-  var samenessCheck = identical(Ehsan, anotherTyler)
+  var samenessCheck = identical(Ehsan, anotherPeople)
       ? "We are both the same ${Me.name}."
       : "We are NOT the same. I mean, just look at us.";
-  print('Creational: singleton =====> $samenessCheck');
+  print('creational: singleton =====> $samenessCheck');
   print('\r\n');
 }
